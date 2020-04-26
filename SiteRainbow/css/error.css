@@ -1,0 +1,48 @@
+
+.container{
+    display:block;
+    margin-top:10%;
+    text-align: center;
+}
+
+input{
+    cursor: pointer;
+    font-size:24px;
+    color:white;
+    background:#2a94e0;
+    border:#2a94e0 2px solid;
+    padding:10px 30px;
+    border-radius: 5px; 
+}
+
+input:hover{
+    color:#2a94e0;
+    background:white;
+    border:#2a94e0 2px solid;
+}
+
+img{
+    width:250px;
+    display:inline-block;
+    position: relative;
+    top:25px;
+    margin-right:10px;  
+}
+
+.text{
+    font-family: lakeshore;
+    text-align: center;
+    color:#37302a;
+    font-size:24px;
+    display:inline-block;
+    max-width:440px;
+}
+
+.text div{
+    display:block;
+}
+
+h2{
+    font-size: 50px;
+    font-weight:bold;
+}

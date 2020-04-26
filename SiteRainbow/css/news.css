@@ -1,0 +1,29 @@
+.news-block{
+	width:95%;
+	margin:auto;
+	margin-bottom:10px;
+	box-shadow:rgba(0,0,0,0.9) 1px 1px 20px;
+	padding:10px;
+}
+
+.news-img{
+	display:block;
+	margin:auto;
+	margin-bottom:10px;
+	max-width:100%;
+}
+
+.news-date{
+	margin-top:10px;
+	color:gray;
+}
+
+.article-heading{
+	font-size:22px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.news-article{
+	font-size:18px;
+}

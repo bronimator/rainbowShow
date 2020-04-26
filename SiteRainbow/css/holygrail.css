@@ -1,0 +1,365 @@
+body{
+    font-family: lakeshore;
+}
+
+.fullscreen{
+    position: absolute;
+    height:100%;
+    width:100%;
+    /*background: rgba(0,0,0) !important;
+    background: rgba(0,0,0,.8) !important;*/
+    z-index:100;
+}
+
+.fullscreen img{
+    display:block;
+    margin:auto;
+    margin-top:5%;
+    transition:transform 333ms ease-in-out;
+    box-shadow: rgba(0,0,0,0.9) 1px 1px 20px;
+}
+
+.hidden{
+    display:none;
+}
+
+.tiny{
+    transform:scale(0.01);
+    transition:transform 0ms;
+}
+
+.header, .footer{
+    background-color: #338099;
+    color:#ccffcc;
+}
+
+.footer, .commercials{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item a div{
+    display:inline-block;
+}
+
+.menu-item a div:nth-child(2){
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:20px;
+    position: absolute;
+    top:16px;
+    left:33px;
+
+}
+
+.menu-item{
+    height:55px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+
+
+.menu-item a{
+    width:150px;
+    display: inline-block;
+    color:#cff;
+    vertical-align: middle;
+    height:40px;
+    padding-top:15px;
+    padding-left:5px;
+    position: relative;
+    background: #5f9dba;
+}
+
+.menu-item a div:nth-child(1){
+    background: url('../img/SpriteMenu.png') no-repeat;
+    width:20px;
+    height:20px;
+    background-size: 200px;
+}
+
+.menu-item a:hover{
+    background: #ff8066;
+    color:#fab5c3;
+    max-height:40px;
+}
+
+.m1{
+    background-position: -100px 0 !important;
+}
+
+.m2{
+    background-position: -40px -66px !important;
+}
+.m3{
+    background-position: 0 0 !important;
+}
+.m4{
+    background-position: 0 -43px !important;
+}
+
+
+.menu{
+    padding-top:0px;
+}
+
+ul{
+    list-style:none;
+}
+
+body, .main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-container{
+    order: -1;
+    background:#65badb;
+}
+
+.commercials-item{
+    margin:10px 5px 10px 5px;
+}
+
+.content{
+    flex: 1;
+    font-size:18px;
+}
+
+.menu-container, .commercials-container{
+    flex:0 0 auto;
+}
+
+.commercials-item-container{
+    max-height: 150px;
+    min-height:150px;
+    overflow: hidden;
+    margin-bottom:5px;
+}
+
+
+.commercials-item{
+    display: inline-block;
+    min-width:200px;
+    max-width:200px;
+    max-height: 200px;
+    min-height:200px;
+}
+
+.commercials-item a img{
+    width:100%;
+}
+
+.header{
+    max-height: 70px;
+    min-height: 70px;
+    padding-right: 10px;
+    padding-left:10px;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    padding:10px 50px 10px 50px;
+}
+
+.footer div p{
+    display: inline-block;
+}
+
+.footer div{
+    vertical-align: middle;
+}
+
+.portrait-hidden{
+    display:none;
+}
+
+.logo{
+    float:left;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.footer .email{
+    background-color: #dd634a;
+}
+
+.feedback-container{
+    float:right;
+    margin-top:11px;
+    transform: scale(.5);
+    margin-right:-80px;
+}
+
+.feedback-container div{
+    width:50px;
+    height:47px;
+    cursor: pointer;
+    background: url('../img/sprite_feedback.png') no-repeat;
+    background-size: 350px;
+    display:inline-block;
+}
+
+.feedback-container .vk{
+    background-position: 0px 0;
+}
+
+.feedback-container .twitter{
+    background-position: -50px 0;
+}
+
+.feedback-container .youtube{
+    background-position: -100px 0;
+}
+
+.feedback-container .instagramm{
+    background-position: -150px 0;
+}
+
+.feedback-container .in{
+    background-position: -200px 0;
+}
+
+.feedback-container .t{
+    background-position: -250px 0;
+}
+
+.feedback-container .googleplus{
+    background-position: -300px 0;
+}
+
+.feedback-container .vk:hover{
+    background-position: 0px -48px;
+}
+
+.feedback-container .twitter:hover{
+    background-position: -50px -48px;
+}
+
+.feedback-container .youtube:hover{
+    background-position: -100px -48px;
+}
+
+.feedback-container .instagramm:hover{
+    background-position: -150px -48px;
+}
+
+.feedback-container .in:hover{
+    background-position: -200px -48px;
+}
+
+.feedback-container .t:hover{
+    background-position: -250px -49px;
+}
+
+.feedback-container .googleplus:hover{
+    background-position: -300px -49px;
+}
+
+.content{
+    padding:10px;
+}
+
+.clear{
+    clear:both;
+}
+
+.raim-pic-1, .raim-pic-2{
+	margin:10px;
+	margin-bottom:5px;
+}
+
+.raim-pic-1{
+    max-width:250px;
+	float:left;
+	margin-left:0;
+	margin-top:0;
+}
+
+.raim-pic-2{
+    max-width:200px;
+	float:right;
+	margin-right:0;
+}
+
+.block-commentary{
+	margin:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	max-width:85%;
+	position:relative;
+}
+
+.block-commentary div{
+	display:inline-block;
+}
+
+.comment{
+	width:80%;
+	margin-left:80px;
+}
+
+.comment-ava{
+	position:absolute;
+
+}
+
+.comment p{
+	display:block;
+}
+
+.comment p:nth-child(1){
+	margin-bottom:5px;
+}
+
+.comment-name{
+	color:#2a94e0;
+}
+
+.title-content{
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:8px;
+	text-align:center;
+}
+
+/*@media all and (min-width:768px){        also exist (orientation:portrait)*/
+    @media all and (orientation:landscape){ /*Нормальный вид*/
+    .main-content{
+        flex-direction: row;
+    }
+
+    .portrait-hidden{
+        display:block;
+    }
+
+    .feedback-container div{
+        width:50px;
+        height:47px;
+    }
+
+    .feedback-container{
+        transform: scale(1);
+        margin-right:0px;
+    }
+
+    .menu-item{
+        display: inline-block;
+    }
+
+    .menu{
+        padding-top:30px;
+    }
+    
+    .menu-container, .commercials-container{
+        flex:0 0 140px;
+    }
+}
